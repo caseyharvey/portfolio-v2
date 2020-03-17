@@ -1,0 +1,35 @@
+@use '../../sass-modules/_variables.sass' as v
+@use '../../sass-modules/_utilities.sass' as u
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+
+html
+    font-size: 18px
+
+body
+    margin: 0
+    color: v.$dark
+    min-width: 320px
+    font-family: v.$main-font
+    background-color: v.$dark
+
+a
+    text-decoration: none
+    color: v.$light
+
+.main-container
+    width: 100%
+    background-color: v.$dark
+    margin: 3rem auto 0 auto
+    @include u.flex(column, flex-start, center)
+    @include u.width(100%)
+
+.page-container
+    @include u.padding(v.$p2, v.$p1)
+    @include u.width(100%, v.$max-width)
+    @include u.flex(column, flex-start, flex-start)
+
+@media screen and ( min-width: 425px )
+
+    .page-container
+        @include u.width(90%, v.$max-width)

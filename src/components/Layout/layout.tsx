@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "../header"
+import Nav from "../Nav/Nav"
 import "./layout.sass"
 
 interface Props {
@@ -20,7 +20,7 @@ const Layout = ({ children }: Props) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Nav siteTitle={data.site.siteMetadata.title} />
       <main className="main-container">{children}</main>
       <footer>© {new Date().getFullYear()} caseyharvey</footer>
     </>

@@ -2,7 +2,7 @@ import React from "react"
 
 import Heading from "../components/Heading/Heading"
 import Layout from "../components/Layout/Layout"
-import Text from "../components/Text/Text"
+import Content from "../components/Content/Content"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -13,7 +13,7 @@ const IndexPage = () => (
       tagLine="Software Developer"
       info="JavaScript, React, Gatsby"
     />
-    <Text>
+    <Content>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
         praesentium odio eveniet omnis iure sint perspiciatis tempore nam!
@@ -27,7 +27,7 @@ const IndexPage = () => (
         consequuntur porro cum quisquam fugiat expedita vero odio soluta saepe
         praesentium pariatur, officia maiores illo molestias voluptas.
       </p>
-    </Text>
+    </Content>
   </Layout>
 )
 

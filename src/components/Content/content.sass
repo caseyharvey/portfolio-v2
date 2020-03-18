@@ -1,16 +1,16 @@
 @use '../../sass-modules/_variables.sass' as v
 @use '../../sass-modules/_utilities.sass' as u
 
-.text-container
+.content-container
     background: v.$bg-low
     @include u.flex(row, flex-end, center)
 
-    .text
+    .content
         background: v.$bg-dark
         @include u.padding(v.$p1, v.$p1)
 
 @media screen and ( min-width: v.$small-breakpoint)
-    .text-container
-        .text
+    .content-container
+        .content
             width: 70%
             padding: v.$p1 v.$p2 v.$p1 v.$p1

@@ -2,5 +2,6 @@
 @use '../../sass-modules/_utilities.sass' as u
 
 nav
-    padding: 40px
     background-color: v.$accent-mid
+    @include u.padding(v.$p2, v.$p1)
+    @include u.flex(row, space-evenly, flex-start)

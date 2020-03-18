@@ -3,7 +3,7 @@
 
 .heading-container
     width: 100%
-    margin-bottom: 1rem
+    margin-bottom: .5rem
     background: v.$bg-low
     @include u.flex(row, flex-start, center)
 
@@ -22,4 +22,8 @@
             font-size: .8rem
             color: v.$accent-low
 
-// @media screen and ( min-width: v.$breakpoint)
+@media screen and ( min-width: v.$small-breakpoint)
+
+    .heading-container
+        .heading-card
+            padding: v.$p1 v.$p1 v.$p1 v.$p2

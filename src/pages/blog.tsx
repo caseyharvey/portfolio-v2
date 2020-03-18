@@ -2,7 +2,6 @@ import React from "react"
 
 import Heading from "../components/Heading/Heading"
 import Layout from "../components/Layout/Layout"
-// import Text from "../components/Text/Text"
 import SEO from "../components/seo"
 
 const BlogPage = () => (

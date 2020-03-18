@@ -3,20 +3,23 @@
 
 .heading-container
     width: 100%
-    margin-bottom: .5rem
-    background: v.$bg-low
+    // margin-bottom: .5rem
+    // background: v.$bg-low
     @include u.flex(row, flex-start, center)
 
     .heading-card
+        width: 75%
         white-space: nowrap
         background: v.$bg-dark
-        @include u.padding(v.$p1, v.$p1)
+        box-sizing: border-box
+        max-width: v.$half-max-width
+        padding: v.$p1 v.$p1 0 v.$p1
         @include u.flex(column, flex-start, flex-start)
         span
             margin: 0 0 .1rem 0
         .heading
             font-size: 1.6rem
-        .tag-line
+        .tag-line,a
             color: v.$accent-mid
         .info
             font-size: .8rem
@@ -26,4 +29,4 @@
 
     .heading-container
         .heading-card
-            padding: v.$p1 v.$p1 v.$p1 v.$p2
+            padding: v.$p1 v.$p1 0 v.$p2

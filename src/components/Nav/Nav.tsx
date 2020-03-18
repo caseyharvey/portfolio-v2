@@ -3,14 +3,28 @@ import React from "react"
 
 import "./nav.sass"
 
-interface Props {
-  siteTitle: string
-}
+// interface Props {
+//   siteTitle: string
+// }
+// { siteTitle }: Props
 
-const Nav = ({ siteTitle }: Props) => (
+const Nav = () => (
   <nav>
-    <div className="link-container">
-      <Link to="/">{siteTitle}</Link>
+    <div className="nav-container">
+      <div className="link-container">
+        <Link className="page-link" to="/">
+          about
+        </Link>
+        <Link className="page-link" to="/projects">
+          projects
+        </Link>
+        <Link className="page-link" to="/contact">
+          contact
+        </Link>
+        <Link className="page-link" to="/blog">
+          blog
+        </Link>
+      </div>
     </div>
   </nav>
 )

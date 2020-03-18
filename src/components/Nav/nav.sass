@@ -2,6 +2,27 @@
 @use '../../sass-modules/_utilities.sass' as u
 
 nav
+    box-sizing: border-box
     background-color: v.$accent-mid
-    @include u.padding(v.$p2, v.$p1)
-    @include u.flex(row, space-evenly, flex-start)
+    @include u.flex(row, center, flex-start)
+
+    .nav-container
+        width: 100%
+        max-width: v.$max-width
+        box-sizing: border-box
+
+        .link-container
+            padding: 0 v.$p1
+            width: v.$min-width
+            box-sizing: border-box
+            @include u.flex(row, space-between, flex-start)
+
+            .page-link
+                padding: v.$p1 0
+
+@media screen and ( min-width: v.$small-breakpoint)
+
+    nav
+        .nav-container
+            .link-container
+                padding: 0 v.$p2

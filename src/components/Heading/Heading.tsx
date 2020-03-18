@@ -4,8 +4,8 @@ import "./heading.sass"
 
 interface Props {
   heading: string
-  tagLine: string
-  info: string
+  tagLine: any
+  info: any
 }
 
 function Heading({ heading, tagLine, info }: Props) {

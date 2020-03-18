@@ -11,8 +11,8 @@ const ContactPage = () => (
     <SEO title="Projects" />
     <Heading
       heading="Contact"
-      tagLine="im@caseys.tech"
-      info="Copy email to clipboard"
+      tagLine={<a href="mailto:im@caseys.tech?">im@caseys.tech</a>}
+      info="Copy to clipboard"
     />
     <Content>
       <ContactForm />

@@ -2,9 +2,10 @@
 @use '../../sass-modules/_utilities.sass' as u
 
 .text-container
-    background-color: v.$bg-low
+    background: v.$bg-low
     border-top: 4px solid v.$bg-dark
     border-left: 2px solid v.$bg-dark
     border-right: 2px solid v.$bg-high
-    border-bottom: 16px solid v.$bg-high
+    border-bottom: 12px solid v.$bg-high
+    background: linear-gradient(180deg, lighten(v.$bg-dark,2%) 20%, darken(v.$bg-high, 7%) 100%)
     @include u.padding(v.$p1, v.$p1)

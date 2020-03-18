@@ -11,7 +11,7 @@ const ProjectsPage = () => (
     <Heading
       heading="Time is money"
       tagLine="Dollar value timer"
-      info="React Redux Redux-form"
+      info="react redux redux-form"
     />
     <Content>
       <p>
@@ -19,6 +19,19 @@ const ProjectsPage = () => (
         know how precious time is but we don't always use it for things that
         matter. This app can help you clarify whats important in your life by
         giving it a dollar value.
+      </p>
+    </Content>
+    <Heading
+      heading="umbleJay"
+      tagLine="Pig latin converter"
+      info="react react-hook-form"
+    />
+    <Content>
+      <p>
+        This is pig latin converter. After seeing many people attempt to program
+        this idea without truly succeeding, I wrote an algorithm to handle the
+        conversion properly. The first attempt was done a while ago and I have
+        since refactored it and turned in into a react app.
       </p>
     </Content>
   </Layout>

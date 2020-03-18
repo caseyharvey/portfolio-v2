@@ -1,0 +1,10 @@
+@use '../../sass-modules/_variables.sass' as v
+@use '../../sass-modules/_utilities.sass' as u
+
+.text-container
+    background-color: v.$bg-low
+    border-top: 4px solid v.$bg-dark
+    border-left: 2px solid v.$bg-dark
+    border-right: 2px solid v.$bg-high
+    border-bottom: 16px solid v.$bg-high
+    @include u.padding(v.$p1, v.$p1)

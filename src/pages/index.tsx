@@ -1,14 +1,19 @@
 import React from "react"
 // import { Link } from "gatsby"
 
+import Heading from "../components/Heading/Heading"
 import Layout from "../components/Layout/Layout"
 import Text from "../components/Text/Text"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Heading
+      heading="Casey Harvey"
+      tagLine="Software Developer"
+      info="JavaScript, React, Gatsby"
+    />
     <Text>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed

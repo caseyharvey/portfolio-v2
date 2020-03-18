@@ -15,17 +15,24 @@ const IndexPage = () => (
     />
     <Content>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-        praesentium odio eveniet omnis iure sint perspiciatis tempore nam!
-        Voluptatibus, quam aperiam officiis repellendus quia nam labore
-        consequuntur harum mollitia quo sunt laborum, nulla vitae, consequatur
-        odio deserunt saepe molestiae rem.
+        I love developing software and writing code. The whole process is deeply
+        satisfying and never ending. There is always something new to learn,
+        some improvement to be made and something just out of reach. I get rush
+        from solving problems and leveling up my skills. This keeps me motivated
+        and inspired to push through the inevitable challenges along the way.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sed
-        labore repellendus doloremque? Cupiditate incidunt iste vel sequi
-        consequuntur porro cum quisquam fugiat expedita vero odio soluta saepe
-        praesentium pariatur, officia maiores illo molestias voluptas.
+        Writing code and seeing it come to life is extremely rewarding. The
+        reward comes from the fact that doing it well is not easy. It takes
+        time, dedication and passion. I am hooked on the process and not the end
+        result. I focus on having solid habits that improve with every win and
+        every loss. these habits ensure that I always deliver my best.
+      </p>
+      <p>
+        Thanks to the internet and all the amazing people producing valuable
+        content I have taught myself how to code. Since making the decision to
+        learn a programming language my life has been forever changed and I
+        could not imagine myself doing anything else.
       </p>
     </Content>
   </Layout>

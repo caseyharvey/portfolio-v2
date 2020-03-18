@@ -7,7 +7,11 @@ interface Props {
 }
 
 function Text({ children }: Props) {
-  return <div className="text-container">{children}</div>
+  return (
+    <div className="text-container">
+      <div className="text">{children}</div>
+    </div>
+  )
 }
 
 export default Text

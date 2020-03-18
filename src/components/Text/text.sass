@@ -3,9 +3,19 @@
 
 .text-container
     background: v.$bg-low
-    border-top: 4px solid v.$bg-dark
-    border-left: 2px solid v.$bg-dark
-    border-right: 2px solid v.$bg-high
-    border-bottom: 12px solid v.$bg-high
-    background: linear-gradient(180deg, lighten(v.$bg-dark,2%) 20%, darken(v.$bg-high, 7%) 100%)
-    @include u.padding(v.$p1, v.$p1)
+    @include u.flex(row, flex-end, center)
+
+    .text
+        background: v.$bg-dark
+        @include u.padding(v.$p1, v.$p1)
+
+@media screen and ( min-width: v.$small-breakpoint)
+
+    .text
+        width: 75%
+
+    // border-top: 2px solid v.$bg-dark
+    // border-left: 2px solid v.$bg-dark
+    // border-right: 2px solid v.$bg-high
+    // border-bottom: 4px solid v.$bg-high
+    // background: linear-gradient(180deg, lighten(v.$bg-dark,2%) 20%, darken(v.$bg-high, 7%) 100%)

@@ -1,0 +1,50 @@
+@use '../../sass-modules/_variables.sass' as v
+@use '../../sass-modules/_utilities.sass' as u
+
+.form-container
+    width: 100%
+    @include u.flex(row, flex-end, flex-start)
+
+    form
+        width: 100%
+        @include u.flex(column, space-evenly, flex-start)
+
+        input, textarea
+            width: 100%
+            border: none
+            outline: none
+            appearance: none
+            font-size: 1.1rem
+            border-radius: 2px
+            color: v.$text-dark
+            margin-bottom: v.$p1
+            font-family: v.$main-font
+            background-color: v.$text-mid
+            @include u.padding(v.$p1, v.$p1)
+            &:focus
+                background-color: white
+            &::placeholder
+                color: v.$text-low
+
+        .contact-message
+            resize: none
+
+        .submit
+            border: none
+            cursor: pointer
+            background-color: v.$accent-mid
+            &:hover
+                transform: scale(.992)
+                    // background-color: darken(v.$accent,10%)
+
+        .error
+            width: 100%
+            color: v.$warning
+            margin: -12px 0 4px 0
+            @include u.padding(v.$p1/2, v.$p1)
+
+        .msg-sent
+            width: 100%
+            text-align: center
+            color: v.$accent-mid
+            @include u.padding(v.$p1/2, v.$p1)

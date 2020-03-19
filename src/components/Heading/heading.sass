@@ -8,12 +8,13 @@
     @include u.flex(row, flex-start, center)
 
     .heading-card
-        width: 90%
+        width: 100%
         color: v.$accent-one
         white-space: nowrap
         background: v.$bg-dark
         box-sizing: border-box
-        max-width: v.$half-max-width
+        max-width: v.$small-breakpoint
+        // max-width: v.$half-max-width
         padding: v.$p1 v.$p1 0 v.$p1
         clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%)
         @include u.flex(column, flex-start, flex-start)
@@ -21,7 +22,7 @@
             margin: 0 0 .1rem 0
         .heading
             font-size: 1.6rem
-        .tag-line
+        .tag-line,a
             color: v.$accent-three
         .info
             font-size: .8rem

@@ -1,17 +1,22 @@
 import React from "react"
 
-import Heading from "../components/Heading/Heading"
-import Layout from "../components/Layout/Layout"
 import Content from "../components/Content/Content"
+import Heading from "../components/Heading/Heading"
+import Buttons from "../components/Buttons/Buttons"
+import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
 
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
     <Heading
-      heading="Time is money"
-      tagLine="Dollar value timer"
+      heading="timeIsMoney"
+      tagLine="dollar value timer"
       info="react redux redux-form"
+    />
+    <Buttons
+      app="https://timeismoney.caseys.tech/"
+      code="https://github.com/caseyharvey/time-is-money/tree/master/src"
     />
     <Content>
       <p>
@@ -19,19 +24,6 @@ const ProjectsPage = () => (
         know how precious time is but we don't always use it for things that
         matter. This app can help you clarify whats important in your life by
         giving it a dollar value.
-      </p>
-    </Content>
-    <Heading
-      heading="umbleJay"
-      tagLine="Pig latin converter"
-      info="react react-hook-form"
-    />
-    <Content>
-      <p>
-        This is pig latin converter. After seeing many people attempt to program
-        this idea without truly succeeding, I wrote an algorithm to handle the
-        conversion properly. The first attempt was done a while ago and I have
-        since refactored it and turned in into a react app.
       </p>
     </Content>
   </Layout>

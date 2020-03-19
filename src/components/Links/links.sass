@@ -1,0 +1,27 @@
+@use '../../sass-modules/_variables.sass' as v
+@use '../../sass-modules/_utilities.sass' as u
+.links-container
+    width: 100%
+    align-self: start
+    box-sizing: border-box
+    max-width: v.$small-breakpoint
+    // max-width: v.$half-max-width
+    background-color: v.$bg-dark
+    padding: v.$p1 v.$p1 0 v.$p1
+    @include u.flex (row, flex-start, flex-start)
+    .links
+        width: 100%
+        // max-width: calc( 100% - 2rem )
+        @include u.flex (row, space-between, flex-start)
+        a
+            text-align: center
+            color: v.$accent-one
+            width: calc( 50% - .5rem)
+            background-color: v.$bg-dark
+            border: 2px solid v.$bg-high
+            @include u.padding(v.$p1/2, v.$p1/2)
+
+@media screen and ( min-width: v.$small-breakpoint)
+
+    .links-container
+        padding: v.$p1 v.$p2 0 v.$p2

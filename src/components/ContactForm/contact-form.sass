@@ -15,16 +15,20 @@
             outline: none
             appearance: none
             font-size: 1.1rem
-            border-radius: 2px
-            color: v.$text-dark
-            margin-bottom: v.$p1
+            // border-radius: 2px
+            color: v.$accent-one
+            color: lighten(v.$bg-high, 20%)
+            margin-bottom: .5rem
+            // margin-bottom: v.$p1
             font-family: v.$main-font
-            background-color: v.$text-mid
+            background-color: v.$bg-dark
+            border: 2px solid v.$bg-high
             @include u.padding(v.$p1, v.$p1)
             &:focus
-                background-color: white
+                border: 2px solid v.$accent-one
+                background-color: v.$bg-dark
             &::placeholder
-                color: v.$text-low
+                color: lighten(v.$bg-high, 20%)
 
         .contact-message
             resize: none
@@ -32,9 +36,12 @@
         .submit
             border: none
             cursor: pointer
-            background-color: v.$accent-mid
+            color: v.$accent-one
+            border: 2px solid v.$bg-high
+            background-color: v.$bg-dark
             &:hover
                 transform: scale(.992)
+                border: 2px solid v.$accent-one
                     // background-color: darken(v.$accent,10%)
 
         .error
@@ -46,5 +53,5 @@
         .msg-sent
             width: 100%
             text-align: center
-            color: v.$accent-mid
+            color: v.$accent-one
             @include u.padding(v.$p1/2, v.$p1)

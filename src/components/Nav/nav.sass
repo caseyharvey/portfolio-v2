@@ -18,8 +18,10 @@ nav
             @include u.flex(row, space-between, flex-start)
 
             .page-link
-                color: v.$accent-mid
+                color: v.$accent-one
                 padding: v.$p1 0
+                &:hover
+                    transform: translateY(1.5px)
 
 @media screen and ( min-width: v.$small-breakpoint)
 

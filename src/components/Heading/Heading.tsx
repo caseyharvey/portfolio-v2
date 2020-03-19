@@ -3,7 +3,7 @@ import React from "react"
 import "./heading.sass"
 
 interface Props {
-  heading: string
+  heading: any
   tagLine: any
   info: any
 }

@@ -3,24 +3,25 @@
 
 .heading-container
     width: 100%
+    height: 100px
     // margin-bottom: .5rem
     // background: v.$bg-low
     @include u.flex(row, flex-start, center)
 
     .heading-card
         width: 100%
-        color: v.$accent-one
-        white-space: nowrap
-        background: v.$bg-dark
+        margin-bottom: .5rem
         box-sizing: border-box
         max-width: v.$small-breakpoint
+        // background: v.$bg-dark
         // max-width: v.$half-max-width
-        padding: v.$p1 v.$p1 0 v.$p1
+        // padding: v.$p1 v.$p1 0 v.$p1
         clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%)
         @include u.flex(column, flex-start, flex-start)
         span
             margin: 0 0 .1rem 0
         .heading
+            color: v.$accent-one
             font-size: 1.6rem
         .tag-line,a
             color: v.$accent-three
@@ -32,4 +33,4 @@
 
     .heading-container
         .heading-card
-            padding: v.$p1 v.$p1 0 v.$p2
+            // padding: v.$p1 v.$p1 0 v.$p2

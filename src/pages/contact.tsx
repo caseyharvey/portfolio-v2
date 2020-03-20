@@ -12,14 +12,9 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Projects" />
     <Section>
-      <Heading
-        heading="Contact"
-        tagLine="im@caseys.tech"
-        // tagLine={<a href="mailto:im@caseys.tech?">im@caseys.tech</a>}
-        info="copy email to clipboard"
-      />
+      <Heading heading="Contact" tagLine="im@caseys.tech" />
       <Links
-        linkOne="https://github.com/caseyharvey"
+        linkOne="mailto:im@caseys.tech?"
         textOne="open in mail"
         linkTwo="https://www.linkedin.com/in/casey-harvey-b931a71a0/"
         textTwo="copy email"
@@ -29,6 +24,7 @@ const ContactPage = () => (
         textOne="GitHub"
         linkTwo="https://www.linkedin.com/in/casey-harvey-b931a71a0/"
         textTwo="LinkedIn"
+        target="_blank"
       />
       <Content>
         <ContactForm />

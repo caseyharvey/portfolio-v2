@@ -11,11 +11,7 @@ const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
     <Section>
-      <Heading
-        heading="timeIsMoney"
-        tagLine="dollar value timer"
-        info="react redux redux-form"
-      />
+      <Heading heading="timeIsMoney" tagLine="dollar value timer" />
       <Links
         linkOne="https://timeismoney.caseys.tech/"
         textOne="the app"

@@ -10,11 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Section>
-      <Heading
-        heading="Casey Harvey"
-        tagLine="Software Developer"
-        info="JavaScript, React, Gatsby"
-      />
+      <Heading heading="Casey Harvey" tagLine="Software Developer" />
       <Content>
         <p>
           I love developing software and writing code. The whole process is

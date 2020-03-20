@@ -5,16 +5,14 @@ import "./heading.sass"
 interface Props {
   heading: any
   tagLine: any
-  info: any
 }
 
-function Heading({ heading, tagLine, info }: Props) {
+function Heading({ heading, tagLine }: Props) {
   return (
     <div className="heading-container">
       <div className="heading-card">
         <span className="heading">{heading}</span>
         <span className="tag-line">{tagLine}</span>
-        <span className="info">{info}</span>
       </div>
     </div>
   )

@@ -5,12 +5,11 @@
     width: 100%
     margin-bottom: .5rem
     background: v.$bg-dark
-    clip-path: polygon(75% 0, 100% 100px, 100% 100%, 0 100%, 0 0)
+    clip-path: polygon(75% 0, 100% 75px, 100% 100%, 0 100%, 0 0)
     @include u.padding( v.$p1,  v.$p1)
 
 @media screen and ( min-width: v.$small-breakpoint)
 
     .section
-        // clip-path: polygon(75% 0, 100% 100px, 100px 100%, 0 75%, 0 0)
-        clip-path: polygon(75% 0, 100% 100px, 100% 100%, 25% 100%, 0% calc( 100% - 100px), 0 0)
+        clip-path: polygon(75% 0, 100% 75px, 100% 100%, 25% 100%, 0% calc( 100% - 75px), 0 0)
         @include u.padding( v.$p1,  v.$p2)

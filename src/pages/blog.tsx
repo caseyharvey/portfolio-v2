@@ -10,11 +10,7 @@ const BlogPage = () => (
   <Layout>
     <SEO title="Projects" />
     <Section>
-      <Heading
-        heading="Blog"
-        tagLine="Coming soon"
-        info="Currently in production"
-      />
+      <Heading heading="Blog" tagLine="Coming soon" />
       <Content>
         <p>
           This will be a place where i can share all the valuable things I have

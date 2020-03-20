@@ -2,14 +2,16 @@
 @use '../../sass-modules/_utilities.sass' as u
 
 nav
+    margin: 0 auto
     box-sizing: border-box
-    background-color: v.$bg-dark
-    @include u.flex(row, center, flex-start)
+    max-width: v.$max-width
+    @include u.flex(row, flex-start, flex-start)
 
     .nav-container
         width: 100%
-        max-width: v.$max-width
         box-sizing: border-box
+        max-width: v.$max-width
+        background-color: v.$bg-dark
 
         .link-container
             padding: 0 v.$p1
@@ -18,8 +20,8 @@ nav
             @include u.flex(row, space-between, flex-start)
 
             .page-link
-                color: v.$accent-one
                 padding: v.$p1 0
+                color: v.$accent-one
                 &:hover
                     transform: translateY(1.5px)
 
@@ -27,5 +29,7 @@ nav
 
     nav
         .nav-container
+            width: 75%
+            // min-width: v.$min-width
             .link-container
                 padding: 0 v.$p2

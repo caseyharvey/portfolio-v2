@@ -51,6 +51,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="form-container">
+      <div className="info-text">send me an email</div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           name="name"

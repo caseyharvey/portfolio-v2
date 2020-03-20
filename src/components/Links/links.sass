@@ -9,9 +9,11 @@
 
     .links
         width: 100%
+        position: relative
         @include u.flex (row, space-between, flex-start)
 
-        a
+        a,.copy-email
+
             text-align: center
             color: v.$accent-one
             width: calc( 50% - .5rem)
@@ -21,6 +23,24 @@
             &:hover
                 transform: scale(.992)
                 border: 2px solid v.$accent-one
+
+    .hide
+        top: 0
+        right: 0
+        width: 0px
+        opacity: 0
+        height: 0px
+        position: absolute
+
+    .success
+        right: 0
+        position: absolute
+        text-align: center
+        color: v.$accent-one
+        width: calc( 50% - .5rem)
+        background-color: v.$bg-dark
+        border: 2px solid v.$accent-one
+        @include u.padding(v.$p1/2, v.$p1/2)
 
 @media screen and ( min-width: v.$small-breakpoint)
 

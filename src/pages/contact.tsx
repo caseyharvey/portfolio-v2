@@ -1,6 +1,7 @@
 import React from "react"
 
 import ContactForm from "../components/ContactForm/ContactForm"
+import EmailLinks from "../components/Links/EmailLinks"
 import Heading from "../components/Heading/Heading"
 import Section from "../components/Section/Section"
 import Content from "../components/Content/Content"
@@ -13,12 +14,7 @@ const ContactPage = () => (
     <SEO title="Projects" />
     <Section>
       <Heading heading="Contact" tagLine="im@caseys.tech" />
-      <Links
-        linkOne="mailto:im@caseys.tech?"
-        textOne="open in mail"
-        linkTwo="https://www.linkedin.com/in/casey-harvey-b931a71a0/"
-        textTwo="copy email"
-      />
+      <EmailLinks />
       <Links
         linkOne="https://github.com/caseyharvey"
         textOne="GitHub"

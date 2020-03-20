@@ -3,11 +3,20 @@
 
 .form-container
     width: 100%
-    @include u.flex(row, flex-end, flex-start)
+    box-sizing: border-box
+    padding: .5rem .5rem 0 .5rem
+    background-color: v.$bg-low
 
+    .info-text
+        width: 100%
+        text-align: center
+        color: v.$bg-high
+        margin-bottom: .5rem
+        background-color: v.$bg-dark
+        @include u.padding(v.$p1, v.$p1 )
     form
         width: 100%
-        @include u.flex(column, space-evenly, flex-start)
+        @include u.flex(column, flex-start, flex-start)
 
         input, textarea
             width: 100%
@@ -15,11 +24,8 @@
             outline: none
             appearance: none
             font-size: 1.1rem
-            // border-radius: 2px
             color: v.$accent-one
-            color: lighten(v.$bg-high, 20%)
             margin-bottom: .5rem
-            // margin-bottom: v.$p1
             font-family: v.$main-font
             background-color: v.$bg-dark
             border: 2px solid v.$bg-high
@@ -28,7 +34,7 @@
                 border: 2px solid v.$accent-one
                 background-color: v.$bg-dark
             &::placeholder
-                color: lighten(v.$bg-high, 20%)
+                color: v.$bg-high
 
         .contact-message
             resize: none
@@ -42,7 +48,6 @@
             &:hover
                 transform: scale(.992)
                 border: 2px solid v.$accent-one
-                    // background-color: darken(v.$accent,10%)
 
         .error
             width: 100%

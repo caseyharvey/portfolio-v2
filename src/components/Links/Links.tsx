@@ -3,16 +3,22 @@ import React from "react"
 import "./links.sass"
 
 interface Props {
-  app: string
-  code: string
+  linkOne: string
+  linkTwo: string
+  textOne: string
+  textTwo: string
 }
 
-function Links({ app, code }: Props) {
+function Links({ linkOne, linkTwo, textOne, textTwo }: Props) {
   return (
     <div className="links-container">
       <div className="links">
-        <a href={app}>the app</a>
-        <a href={code}>the code</a>
+        <a href={linkOne} target="_blank" rel="noopener noreferrer">
+          {textOne}
+        </a>
+        <a href={linkTwo} target="_blank" rel="noopener noreferrer">
+          {textTwo}
+        </a>
       </div>
     </div>
   )

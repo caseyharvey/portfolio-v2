@@ -19,9 +19,7 @@ function EmailLinks() {
         <span className="copy-email" onClick={copyEmailToClipboard}>
           copy email
         </span>
-        <span className={emailCopied ? "success" : "hide success"}>
-          success
-        </span>
+        <span className={emailCopied ? "success" : "hide"}>success</span>
       </div>
       <textarea
         readOnly

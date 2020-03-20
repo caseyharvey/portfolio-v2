@@ -9,7 +9,7 @@ interface Props {
   textTwo: string
 }
 
-function Links({ linkOne, linkTwo, textOne, textTwo, target }: Props) {
+function Links({ linkOne, linkTwo, textOne, textTwo }: Props) {
   return (
     <div className="links-container">
       <div className="links">

@@ -4,15 +4,11 @@
 .form-container
     width: 100%
     box-sizing: border-box
-    padding: .5rem .5rem 0 .5rem
-    background-color: v.$bg-low
 
     .info-text
         width: 100%
         text-align: center
-        color: v.$bg-high
         margin-bottom: .5rem
-        background-color: v.$bg-dark
         @include u.padding(v.$p1, v.$p1 )
     form
         width: 100%
@@ -24,17 +20,9 @@
             outline: none
             appearance: none
             font-size: 1.1rem
-            color: v.$accent-one
             margin-bottom: .5rem
             font-family: v.$main-font
-            background-color: v.$bg-dark
-            border: 2px solid v.$bg-high
             @include u.padding(v.$p1, v.$p1)
-            &:focus
-                border: 2px solid v.$accent-one
-                background-color: v.$bg-dark
-            &::placeholder
-                color: v.$bg-high
 
         .contact-message
             resize: none
@@ -42,12 +30,8 @@
         .submit
             border: none
             cursor: pointer
-            color: v.$accent-one
-            border: 2px solid v.$bg-high
-            background-color: v.$bg-dark
             &:hover
                 transform: scale(.992)
-                border: 2px solid v.$accent-one
 
         .error
             width: 100%
@@ -58,5 +42,4 @@
         .msg-sent
             width: 100%
             text-align: center
-            color: v.$accent-one
             @include u.padding(v.$p1/2, v.$p1)

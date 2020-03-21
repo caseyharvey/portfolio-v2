@@ -5,22 +5,133 @@
 
 html
     font-size: 18px
-
 body
     margin: 0
-    color: v.$text-light
     min-width: v.$min-width
     font-family: v.$main-font
-    background-color: v.$bg-mid
-
 a
     text-decoration: none
-    color: v.$accent-one
-
 p
     margin: .5rem 0 1rem 0
+
 .main-container
     width: 100%
-    margin: .5rem auto
+    position: relative
+    margin: .5rem auto 0 auto
     max-width: v.$max-width
     @include u.flex(column, flex-start, center)
+
+    .light-dark-btn
+        top: 5px
+        right: 5px
+        padding: 7px
+        width: 150px
+        height: 150px
+        cursor: pointer
+        font-size: 1.3rem
+        position: absolute
+        text-align: right
+
+.light
+    height: 100%
+    min-height: 100vh
+    color: v.$text-light
+    background-color: v.$bg-light
+    .light-dark-btn
+        color: v.$accent-one-light
+        background-color: lighten(v.$bg-light, 6%)
+    .nav-container
+        background-color: v.$section-light
+    .page-link
+        color: v.$accent-one-light
+    .heading
+        color: v.$accent-one-light
+    .tag-line,a
+        color: v.$accent-two-light
+    .section
+        background: v.$section-light
+    .links
+        a,.copy-email
+            color: v.$accent-one-light
+            background-color: v.$button-light
+            border: 2px solid v.$border-light
+            &:hover
+                border: 2px solid v.$accent-one-light
+        .success
+            color: v.$accent-one-light
+            background-color: v.$section-light
+            border: 2px solid v.$accent-one-light
+    .form-container
+        .info-text
+            color: darken(v.$border-light,30%)
+            background-color: darken(v.$section-light, 2%)
+        form
+            input, textarea
+                color: v.$text-light
+                background-color: v.$button-light
+                border: 2px solid v.$border-light
+                &:focus
+                    border: 2px solid v.$accent-one-light
+                    background-color: v.$button-light
+                &::placeholder
+                    color: v.$border-light
+        .submit
+            color: v.$accent-one-light
+            border: 2px solid v.$border-light
+            background-color: v.$button-light
+            &:hover
+                border: 2px solid v.$accent-one-light
+        .msg-sent
+            color: v.$accent-one-light
+
+.dark
+    height: 100%
+    min-height: 100vh
+    color: v.$text
+    background-color: v.$bg
+    .light-dark-btn
+        color: v.$accent-one
+        background-color: lighten(v.$section, 7%)
+    .nav-container
+        background-color: v.$section
+    .page-link
+        color: v.$accent-one
+    .heading
+        color: v.$accent-one
+    .tag-line,a
+        color: v.$accent-two
+    .section
+        background: v.$section
+    .links
+        a,.copy-email
+            color: v.$accent-one
+            background-color: v.$section
+            border: 2px solid v.$border
+            &:hover
+                border: 2px solid v.$accent-one
+        .success
+            color: v.$accent-one
+            background-color: v.$section
+            border: 2px solid v.$accent-one
+    .form-container
+        .info-text
+            color: v.$border
+            background-color: lighten(v.$section, 5%)
+        form
+            input, textarea
+                color: v.$accent-one
+                background-color: v.$section
+                border: 2px solid v.$border
+                &:focus
+                    border: 2px solid v.$accent-one
+                    background-color: v.$section
+                &::placeholder
+                    color: v.$border
+        .submit
+            color: v.$accent-one
+            border: 2px solid v.$border
+            background-color: v.$section
+            &:hover
+                border: 2px solid v.$accent-one
+        .msg-sent
+            color: v.$accent-one

@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Casey Harvey <im@caseys.tech>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "@types/react-helmet": "^5.0.15",
     "axios": "^0.19.2",
     "gatsby": "^2.19.49",

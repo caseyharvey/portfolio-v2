@@ -21,13 +21,11 @@
     "gatsby-transformer-sharp": "^2.3.19",
     "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
-    "npm-force-resolutions": "0.0.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-hook-form": "^5.1.1",
-    "sass-loader": "^8.0.2"
+    "react-hook-form": "^5.1.1"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",
@@ -42,7 +40,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -50,9 +47,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "resolutions": {
-    "minimist": "^1.2.5"
   },
   "repository": {
     "type": "git",

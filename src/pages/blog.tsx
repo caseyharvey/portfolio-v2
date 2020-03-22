@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 const BlogPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Blog" />
     <Section>
       <Heading heading="Blog" tagLine="Coming soon" />
       <Content>

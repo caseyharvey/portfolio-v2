@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Contact" />
     <Section>
       <Heading heading="Contact" tagLine="im@caseys.tech" />
       <EmailLinks />

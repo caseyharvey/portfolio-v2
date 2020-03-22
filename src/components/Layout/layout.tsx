@@ -1,9 +1,9 @@
 import React, { ReactNode } from "react"
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import ThemeContext from "../../context/ThemeContext"
 import Nav from "../Nav/Nav"
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./layout.sass"
 
 interface Props {
@@ -32,13 +32,4 @@ const Layout = ({ children }: Props) => {
   )
 }
 
-// return (
-//   <>
-//     <Nav />
-//     <main className="main-container">{children}</main>
-//   </>
-// )
-// }
-
 export default Layout
-// siteTitle={data.site.siteMetadata.title}

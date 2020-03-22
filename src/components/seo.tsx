@@ -16,8 +16,9 @@ function SEO({ description, lang, meta, title }: Props) {
         site {
           siteMetadata {
             title
-            description
             author
+            url
+            description
           }
         }
       }

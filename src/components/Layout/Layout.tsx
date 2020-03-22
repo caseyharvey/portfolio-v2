@@ -5,7 +5,7 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Nav from "../Nav/Nav"
-import ThemeContext from "../../context/ThemeContext.js"
+import ThemeContext from "../../context/ThemeContext"
 
 interface Props {
   children: ReactNode

@@ -14,7 +14,6 @@ module.exports = {
     },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-source-filesystem`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-manifest`,
     `gatsby-plugin-sharp`,

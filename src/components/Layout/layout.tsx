@@ -1,9 +1,9 @@
 import React, { ReactNode } from "react"
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 import ThemeContext from "../../context/ThemeContext"
 import Nav from "../Nav/Nav"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
+
 import "./layout.sass"
 
 interface Props {

@@ -1,10 +1,10 @@
 import React from "react"
 
-import Content from "../components/Content/Content"
-import Heading from "../components/Heading/Heading"
-import Section from "../components/Section/Section"
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
+import Section from "../components/Section/Section"
+import Heading from "../components/Heading/Heading"
+import Content from "../components/Content/Content"
 
 const BlogPage = () => (
   <Layout>

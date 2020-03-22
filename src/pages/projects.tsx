@@ -1,8 +1,8 @@
 import React from "react"
 
-import ProjectList from "../components/Project/ProjectList"
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
+import ProjectList from "../components/Project/ProjectList"
 
 const ProjectsPage = () => (
   <Layout>

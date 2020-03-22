@@ -1,12 +1,7 @@
-import { Link } from "gatsby"
-import React from "react"
-
 import "./nav.sass"
 
-// interface Props {
-//   siteTitle: string
-// }
-// { siteTitle }: Props
+import { Link } from "gatsby"
+import React from "react"
 
 const Nav = () => (
   <nav>

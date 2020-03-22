@@ -1,13 +1,12 @@
-import React from "react"
-
+import ContactForm from "../components/ContactForm/ContactForm"
+import Content from "../components/Content/Content"
+import EmailLinks from "../components/Links/EmailLinks"
+import Heading from "../components/Heading/Heading"
 import Layout from "../components/Layout/Layout"
+import Links from "../components/Links/Links"
+import React from "react"
 import SEO from "../components/seo"
 import Section from "../components/Section/Section"
-import Heading from "../components/Heading/Heading"
-import EmailLinks from "../components/Links/EmailLinks"
-import Links from "../components/Links/Links"
-import Content from "../components/Content/Content"
-import ContactForm from "../components/ContactForm/ContactForm"
 
 const ContactPage = () => (
   <Layout>

@@ -1,9 +1,8 @@
-import React from "react"
-
 import Content from "../../components/Content/Content"
 import Heading from "../../components/Heading/Heading"
-import Section from "../../components/Section/Section"
 import Links from "../../components/Links/Links"
+import React from "react"
+import Section from "../../components/Section/Section"
 
 interface Props {
   id: number

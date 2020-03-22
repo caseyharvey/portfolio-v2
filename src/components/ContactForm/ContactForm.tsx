@@ -1,8 +1,9 @@
-import React, { useState } from "react"
-import { useForm } from "react-hook-form"
-import axios from "axios"
-
 import "./contact-form.sass"
+
+import React, { useState } from "react"
+
+import axios from "axios"
+import { useForm } from "react-hook-form"
 
 const ContactForm: React.FC = () => {
   const { register, handleSubmit, errors, reset } = useForm()

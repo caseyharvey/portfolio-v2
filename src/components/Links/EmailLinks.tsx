@@ -1,5 +1,6 @@
-import React, { useState, useRef } from "react"
 import "./links.sass"
+
+import React, { useRef, useState } from "react"
 
 function EmailLinks() {
   const [emailCopied, setEmailCopied] = useState<boolean>(false)

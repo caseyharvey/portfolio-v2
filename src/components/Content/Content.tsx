@@ -1,6 +1,6 @@
-import React, { ReactNode } from "react"
-
 import "./content.sass"
+
+import React, { ReactNode } from "react"
 
 interface Props {
   children: ReactNode

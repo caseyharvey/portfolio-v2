@@ -1,6 +1,6 @@
-import React from "react"
-
 import "./heading.sass"
+
+import React from "react"
 
 interface Props {
   heading: any

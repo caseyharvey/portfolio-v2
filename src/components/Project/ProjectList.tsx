@@ -1,6 +1,6 @@
+import ProjectCard from "./ProjectCard"
 import React from "react"
 import projectsArray from "./projectsArray"
-import ProjectCard from "./ProjectCard"
 
 function ProjectList() {
   return (

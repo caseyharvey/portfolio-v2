@@ -1,5 +1,3 @@
-import "./section.sass"
-
 import React, { ReactNode } from "react"
 
 interface Props {

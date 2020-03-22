@@ -1,5 +1,3 @@
-import "./links.sass"
-
 import React, { useRef, useState } from "react"
 
 function EmailLinks() {

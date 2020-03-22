@@ -1,5 +1,3 @@
-import "./contact-form.sass"
-
 import React, { useState } from "react"
 
 import axios from "axios"

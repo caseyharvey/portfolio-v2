@@ -1,5 +1,3 @@
-import "./heading.sass"
-
 import React from "react"
 
 interface Props {

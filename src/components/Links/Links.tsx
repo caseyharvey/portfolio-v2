@@ -1,5 +1,3 @@
-import "./links.sass"
-
 import React from "react"
 
 interface Props {

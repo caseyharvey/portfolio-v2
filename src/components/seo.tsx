@@ -18,7 +18,7 @@ function SEO({ description, lang, meta, title }: Props) {
           siteMetadata {
             title
             author
-            url
+            siteUrl
             description
           }
         }

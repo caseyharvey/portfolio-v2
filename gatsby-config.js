@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `caseys.tech`,
     author: `Casey Harvey`,
-    url: `https://www.caseys.tech`,
+    siteUrl: `https://caseys.tech`,
     description: `The developer portfolio of Casey Harvey.`,
   },
   plugins: [
@@ -35,5 +35,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }

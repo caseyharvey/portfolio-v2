@@ -1,4 +1,5 @@
 import Content from "../components/Content/Content"
+import H1 from "../components/H1/H1"
 import Heading from "../components/Heading/Heading"
 import Layout from "../components/Layout/Layout"
 import React from "react"
@@ -7,7 +8,11 @@ import Section from "../components/Section/Section"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About me: Casey Harvey - Software Developer" description='Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code.'/>
+    <SEO
+      title="About me - Why i love to code"
+      description="Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code."
+    />
+    <H1 name="about me - why i love to code" />
     <Section>
       <Heading heading="Casey Harvey" tagLine="Software Developer" />
       <Content>

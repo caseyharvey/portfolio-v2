@@ -10,7 +10,9 @@ import Section from "../components/Section/Section"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" description='This page contains Casey Harveys contact information and a few different options for getting in touch'/>
+    <SEO title="Contact Me - Casey Harvey
+    
+     " description='This page contains my contact information and a few different options for getting in touch'/>
     <Section>
       <Heading heading="Contact" tagLine="im@caseys.tech" />
       <EmailLinks />

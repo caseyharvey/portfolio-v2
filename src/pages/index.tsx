@@ -7,7 +7,7 @@ import Section from "../components/Section/Section"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" description='Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code.'/>
+    <SEO title="About me: Casey Harvey - Software Developer" description='Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code.'/>
     <Section>
       <Heading heading="Casey Harvey" tagLine="Software Developer" />
       <Content>

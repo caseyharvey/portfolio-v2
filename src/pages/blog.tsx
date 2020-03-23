@@ -7,7 +7,7 @@ import Section from "../components/Section/Section"
 
 const BlogPage = () => (
   <Layout>
-    <SEO title="Blog" />
+    <SEO title="Blog" description='This page is a Blog authored by Casey Harvey. The content is focused on sharing knowledge around software development'/>
     <Section>
       <Heading heading="Blog" tagLine="Coming soon" />
       <Content>

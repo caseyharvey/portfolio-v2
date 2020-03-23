@@ -3,6 +3,7 @@
 
 @import ../ContactForm/contact-form
 @import ../Content/content
+@import ../H1/h1
 @import ../Heading/heading
 @import ../Links/links
 @import ../Nav/nav
@@ -24,12 +25,12 @@ p
 .main-container
     width: 100%
     position: relative
-    margin: .5rem auto 0 auto
+    margin: 0 auto
     max-width: v.$max-width
     @include u.flex(column, flex-start, center)
 
     .light-dark-btn
-        top: 5px
+        top: 42px
         right: 5px
         padding: 7px
         width: 75px
@@ -51,6 +52,11 @@ p
         background-color: v.$section-light
     .page-link
         color: v.$accent-one-light
+
+    .h1-container
+        color: v.$section-light
+        background: darken(v.$bg-light, 10%)
+        
     .heading
         color: v.$accent-one-light
     .tag-line,a
@@ -103,6 +109,11 @@ p
         background-color: v.$section
     .page-link
         color: v.$accent-one
+    .h1-container
+        // color: v.$section
+        // background: v.$accent-one
+        color: v.$section
+        background: lighten(v.$bg, 25%)
     .heading
         color: v.$accent-one
     .tag-line,a

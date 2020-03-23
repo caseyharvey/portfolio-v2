@@ -9,10 +9,10 @@ import Section from "../components/Section/Section"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="About me - Why i love to code"
+      title="About me - This is why i love to code"
       description="Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code."
     />
-    <H1 name="about me - why i love to code" />
+    <H1 name="about me - this is why i love to code" />
     <Section>
       <Heading heading="Casey Harvey" tagLine="Software Developer" />
       <Content>

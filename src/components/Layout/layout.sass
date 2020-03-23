@@ -13,6 +13,7 @@
 
 html
     font-size: 18px
+    
 body
     margin: 0
     min-width: v.$min-width
@@ -40,63 +41,6 @@ p
         position: absolute
         text-align: right
 
-.light
-    height: 100%
-    min-height: 100vh
-    color: v.$text-light
-    background-color: v.$bg-light
-    .light-dark-btn
-        color: v.$accent-one-light
-        background-color: lighten(v.$bg-light, 6%)
-    .nav-container
-        background-color: v.$section-light
-    .page-link
-        color: v.$accent-one-light
-
-    .h1-container
-        color: v.$section-light
-        background: darken(v.$bg-light, 10%)
-        
-    .heading
-        color: v.$accent-one-light
-    .tag-line,a
-        color: v.$accent-two-light
-    .section
-        background: v.$section-light
-    .links
-        a,.copy-email
-            color: v.$accent-one-light
-            background-color: v.$button-light
-            border: 2px solid v.$border-light
-            &:hover
-                border: 2px solid v.$accent-one-light
-        .success
-            color: v.$accent-one-light
-            background-color: v.$section-light
-            border: 2px solid v.$accent-one-light
-    .form-container
-        .info-text
-            color: darken(v.$border-light,30%)
-            background-color: darken(v.$section-light, 2%)
-        form
-            input, textarea
-                color: v.$text-light
-                background-color: v.$button-light
-                border: 2px solid v.$border-light
-                &:focus
-                    border: 2px solid v.$accent-one-light
-                    background-color: v.$button-light
-                &::placeholder
-                    color: v.$border-light
-        .submit
-            color: v.$accent-one-light
-            border: 2px solid v.$border-light
-            background-color: v.$button-light
-            &:hover
-                border: 2px solid v.$accent-one-light
-        .msg-sent
-            color: v.$accent-one-light
-
 .dark
     height: 100%
     min-height: 100vh
@@ -110,8 +54,6 @@ p
     .page-link
         color: v.$accent-one
     .h1-container
-        // color: v.$section
-        // background: v.$accent-one
         color: v.$section
         background: lighten(v.$bg, 25%)
     .heading
@@ -153,3 +95,58 @@ p
                 border: 2px solid v.$accent-one
         .msg-sent
             color: v.$accent-one
+
+.light
+    height: 100%
+    min-height: 100vh
+    color: v.$text-light
+    background-color: v.$bg-light
+    .light-dark-btn
+        color: v.$accent-one-light
+        background-color: lighten(v.$bg-light, 6%)
+    .nav-container
+        background-color: v.$section-light
+    .page-link
+        color: v.$accent-one-light
+    .h1-container
+        color: v.$section-light
+        background: darken(v.$bg-light, 10%)
+    .heading
+        color: v.$accent-one-light
+    .tag-line,a
+        color: v.$accent-two-light
+    .section
+        background: v.$section-light
+    .links
+        a,.copy-email
+            color: v.$accent-one-light
+            background-color: v.$button-light
+            border: 2px solid v.$border-light
+            &:hover
+                border: 2px solid v.$accent-one-light
+        .success
+            color: v.$accent-one-light
+            background-color: v.$section-light
+            border: 2px solid v.$accent-one-light
+    .form-container
+        .info-text
+            color: darken(v.$border-light,30%)
+            background-color: darken(v.$section-light, 2%)
+        form
+            input, textarea
+                color: v.$text-light
+                background-color: v.$button-light
+                border: 2px solid v.$border-light
+                &:focus
+                    border: 2px solid v.$accent-one-light
+                    background-color: v.$button-light
+                &::placeholder
+                    color: v.$border-light
+        .submit
+            color: v.$accent-one-light
+            border: 2px solid v.$border-light
+            background-color: v.$button-light
+            &:hover
+                border: 2px solid v.$accent-one-light
+        .msg-sent
+            color: v.$accent-one-light

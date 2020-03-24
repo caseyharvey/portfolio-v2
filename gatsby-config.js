@@ -35,6 +35,7 @@ module.exports = {
         icon: `src/images/pink-c-icon.png`, // This path is relative to the root of the site.
       },
     },
+    "gatsby-plugin-dark-mode",
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],

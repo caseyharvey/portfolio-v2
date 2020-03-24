@@ -6,6 +6,7 @@
     "lib": ["dom", "es2015", "es2017"],
     "strict": true,
     "noEmit": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -14,5 +15,6 @@
     "removeComments": false,
     "preserveConstEnums": true
   },
+  "exclude": ["node_modules", "typings", "./types"],
   "include": ["./src/**/*"]
 }

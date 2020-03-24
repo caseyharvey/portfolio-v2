@@ -4,32 +4,38 @@ import React, { ReactNode } from "react"
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
+
 import Nav from "../Nav/Nav"
-import ThemeContext from "../../context/ThemeContext"
 
 interface Props {
+  theme: string
+  toggleTheme: (theme: string) => void
   children: ReactNode
 }
 
 const Layout = ({ children }: Props) => {
   return (
-    <ThemeContext.Consumer>
-      {theme => (
-        <div className={theme.dark ? "dark" : "light"}>
-          <Nav />
-          <main className="main-container">
-            <div className="light-dark-btn" onClick={theme.toggleDark}>
-              {theme.dark ? (
+    <div>
+      <Nav />
+      <main className="main-container">
+        <ThemeToggler>
+          {({ theme, toggleTheme }: Props) => (
+            <div
+              className="light-dark-btn"
+              onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
+            >
+              {theme === "dark" ? (
                 <FontAwesomeIcon icon={faSun} />
               ) : (
                 <FontAwesomeIcon icon={faMoon} />
               )}
             </div>
-            {children}
-          </main>
-        </div>
-      )}
-    </ThemeContext.Consumer>
+          )}
+        </ThemeToggler>
+        {children}
+      </main>
+    </div>
   )
 }
 

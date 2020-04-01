@@ -14,9 +14,14 @@ const Nav = () => (
         <Link className="page-link" to="/contact">
           contact
         </Link>
-        <Link className="page-link" to="/blog">
+        <a
+          className="page-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://blog.caseys.tech/"
+        >
           blog
-        </Link>
+        </a>
       </div>
     </div>
   </nav>

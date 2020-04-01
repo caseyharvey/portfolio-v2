@@ -1,8 +1,6 @@
 import React from "react"
-import { faAdjust } from "@fortawesome/free-solid-svg-icons"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import ToggleIcon from "../assets/dark-mode-icon.svg"
 
 interface Props {
   theme: string
@@ -14,12 +12,10 @@ function ThemeControl() {
     <div>
       <ThemeToggler>
         {({ theme, toggleTheme }: Props) => (
-          <div
+          <ToggleIcon
             className="light-dark-btn"
             onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
-          >
-            <FontAwesomeIcon icon={faAdjust} />
-          </div>
+          />
         )}
       </ThemeToggler>
     </div>

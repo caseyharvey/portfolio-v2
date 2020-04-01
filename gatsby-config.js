@@ -15,8 +15,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
       },
     },
     `gatsby-plugin-typescript`,
@@ -32,7 +40,7 @@ module.exports = {
         background_color: `#3a2435 `,
         theme_color: `#3a2435 `,
         display: `minimal-ui`,
-        icon: `src/images/pink-c-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/pink-c-icon.svg`, // This path is relative to the root of the site.
       },
     },
     "gatsby-plugin-dark-mode",

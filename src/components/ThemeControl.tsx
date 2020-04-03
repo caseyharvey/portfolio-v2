@@ -5,8 +5,6 @@ import ToggleIcon from "../assets/dark-mode-icon.svg"
 interface Props {
   theme: string
   toggleTheme: (theme: string) => string
-  className: string
-  onClick: any
 }
 
 function ThemeControl() {

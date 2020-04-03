@@ -6,7 +6,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Section from "../components/Section/Section"
 
-const IndexPage = () => (
+const IndexPage: React.FC = () => (
   <Layout>
     <SEO
       title="caseys.tech - The portfolio of Casey Harvey"

@@ -84,7 +84,7 @@ const ContactForm: React.FC = () => {
           <span className="error">please enter a valid email</span>
         )}
         <textarea
-          rows="8"
+          rows={4}
           name="message"
           autoCorrect="off"
           autoComplete="off"

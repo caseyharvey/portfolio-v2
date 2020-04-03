@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react"
 
-function EmailLinks() {
+const EmailLinks: React.FC = () => {
   const [emailCopied, setEmailCopied] = useState<boolean>(false)
   const textAreaRef = useRef<HTMLTextAreaElement>(null)
 

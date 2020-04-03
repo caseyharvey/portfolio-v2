@@ -4,7 +4,9 @@ import ToggleIcon from "../assets/dark-mode-icon.svg"
 
 interface Props {
   theme: string
-  toggleTheme: (theme: string) => void
+  toggleTheme: (theme: string) => string
+  className: string
+  onClick: any
 }
 
 function ThemeControl() {
@@ -12,10 +14,12 @@ function ThemeControl() {
     <div>
       <ThemeToggler>
         {({ theme, toggleTheme }: Props) => (
-          <ToggleIcon
+          <span
             className="light-dark-btn"
             onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
-          />
+          >
+            <ToggleIcon />
+          </span>
         )}
       </ThemeToggler>
     </div>

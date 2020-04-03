@@ -1,8 +1,8 @@
 import React from "react"
 
 interface Props {
-  heading: any
-  tagLine: any
+  heading: string
+  tagLine: string
 }
 
 function Heading({ heading, tagLine }: Props) {

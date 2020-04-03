@@ -9,7 +9,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Section from "../components/Section/Section"
 
-const ContactPage = () => (
+const ContactPage: React.FC = () => (
   <Layout>
     <SEO
       title="Contact me - Here are my details"

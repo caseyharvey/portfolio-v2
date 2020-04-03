@@ -1,10 +1,6 @@
-import React, { ReactNode } from "react"
+import React from "react"
 
-interface Props {
-  children: ReactNode
-}
-
-function Section({ children }: Props) {
+const Section: React.FC = ({ children }) => {
   return <div className="section">{children}</div>
 }
 

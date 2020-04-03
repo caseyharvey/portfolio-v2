@@ -1,15 +1,11 @@
 import "./layout.sass"
 
-import React, { ReactNode } from "react"
+import React from "react"
 import ThemeControl from "../ThemeControl"
 
 import Nav from "../Nav/Nav"
 
-interface Props {
-  children: ReactNode
-}
-
-const Layout = ({ children }: Props) => {
+const Layout: React.FC = ({ children }) => {
   return (
     <div>
       <Nav />

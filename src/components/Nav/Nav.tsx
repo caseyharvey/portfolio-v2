@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Nav = () => (
+const Nav: React.FC = () => (
   <nav>
     <div className="nav-container">
       <div className="link-container">

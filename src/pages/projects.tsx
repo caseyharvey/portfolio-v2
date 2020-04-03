@@ -4,7 +4,7 @@ import ProjectList from "../components/Project/ProjectList"
 import React from "react"
 import SEO from "../components/seo"
 
-const ProjectsPage = () => (
+const ProjectsPage: React.FC = () => (
   <Layout>
     <SEO
       title="Projects - The portfolio of Casey Harvey"

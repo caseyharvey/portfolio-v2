@@ -1,10 +1,6 @@
-import React, { ReactNode } from "react"
+import React from "react"
 
-interface Props {
-  children: ReactNode
-}
-
-function Content({ children }: Props) {
+const Content: React.FC = ({ children }) => {
   return (
     <div className="content-container">
       <div className="content">{children}</div>

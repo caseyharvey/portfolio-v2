@@ -14,7 +14,7 @@ interface Props {
   info: string
 }
 
-function ProjectCard({ name, tag, url, git, info }: Props) {
+const ProjectCard: React.FC<Props> = ({ name, tag, url, git, info }) => {
   return (
     <Section>
       <Heading heading={name} tagLine={tag} />

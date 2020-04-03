@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard"
 import React from "react"
 import projectsArray from "./projectsArray"
 
-function ProjectList() {
+const ProjectList: React.FC = () => {
   return (
     <>
       {projectsArray.map(project => (

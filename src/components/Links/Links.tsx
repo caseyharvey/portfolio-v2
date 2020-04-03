@@ -1,13 +1,13 @@
 import React from "react"
 
 interface Props {
-  linkOne: any
-  linkTwo: any
+  linkOne: string
+  linkTwo: string
   textOne: string
   textTwo: string
 }
 
-function Links({ linkOne, linkTwo, textOne, textTwo }: Props) {
+const Links: React.FC<Props> = ({ linkOne, linkTwo, textOne, textTwo }) => {
   return (
     <div className="links-container">
       <div className="links">

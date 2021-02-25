@@ -22,7 +22,7 @@ const ContactPage: React.FC = () => (
       <Links
         linkOne="https://github.com/caseyharvey"
         textOne="GitHub"
-        linkTwo="https://www.linkedin.com/in/casey-harvey-b931a71a0/"
+        linkTwo="https://www.linkedin.com/in/casey-harvey-a85a72207/"
         textTwo="LinkedIn"
       />
       <Content>

@@ -14,14 +14,6 @@ const Nav: React.FC = () => (
         <Link className="page-link" to="/contact">
           contact
         </Link>
-        <a
-          className="page-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://blog.caseys.tech/"
-        >
-          blog
-        </a>
       </div>
     </div>
   </nav>

@@ -14,7 +14,7 @@ const EmailLinks: React.FC = () => {
   return (
     <div className="links-container">
       <div className="links">
-        <a href="mailto:im@caseys.tech?">open in mail</a>
+        <a href="mailto:im@casey.work?">open in mail</a>
         <span className="copy-email" onClick={copyEmailToClipboard}>
           copy email
         </span>
@@ -23,7 +23,7 @@ const EmailLinks: React.FC = () => {
       <textarea
         readOnly
         ref={textAreaRef}
-        value="im@caseys.tech"
+        value="im@casey.work"
         className="hide"
       ></textarea>
     </div>

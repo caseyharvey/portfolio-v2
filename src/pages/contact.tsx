@@ -17,7 +17,7 @@ const ContactPage: React.FC = () => (
     />
     <H1 name="contact me - here are my details" />
     <Section>
-      <Heading heading="Email me" tagLine="im@caseys.tech" />
+      <Heading heading="Email me" tagLine="im@casey.work" />
       <EmailLinks />
       <Links
         linkOne="https://github.com/caseyharvey"

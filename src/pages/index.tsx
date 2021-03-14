@@ -9,7 +9,7 @@ import Section from "../components/Section/Section"
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO
-      title="caseys.tech - The portfolio of Casey Harvey"
+      title="casey.work - The portfolio of Casey Harvey"
       description="Welcome to the home page of Casey Harvey, a software developer from NSW Australia. This page has some information about me and why i love to code."
     />
     <H1 name="about me - this is why i love to code" />

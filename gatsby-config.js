@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `caseys.tech`,
+    title: `casey.work`,
     author: `Casey Harvey`,
-    siteUrl: `https://caseys.tech`,
+    siteUrl: `https://casey.work`,
     description: `The developer portfolio of Casey Harvey.`,
   },
   plugins: [
@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `caseys.tech`,
-        short_name: `caseys.tech`,
+        name: `casey.work`,
+        short_name: `casey.work`,
         start_url: `/`,
         background_color: `#3a2435 `,
         theme_color: `#3a2435 `,

@@ -7,12 +7,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        implementation: require("sass"),
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
@@ -28,6 +22,7 @@ module.exports = {
     //     },
     //   },
     // },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,

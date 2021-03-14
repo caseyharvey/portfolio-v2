@@ -1,9 +1,9 @@
 {
-  "name": "caseys.tech",
+  "name": "casey.work",
   "private": true,
   "description": "The developer portfolio of Casey Harvey.",
   "version": "0.1.0",
-  "author": "Casey Harvey <im@caseys.tech>",
+  "author": "Casey Harvey <im@casey.work>",
   "dependencies": {
     "@types/react-helmet": "^5.0.15",
     "axios": ">=0.21.1",
